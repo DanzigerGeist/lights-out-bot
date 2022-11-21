@@ -1,0 +1,6 @@
+flask==2.2.2
+python-telegram-bot[all]==13.14
+mysql-connector-python==8.0.31
+python-dotenv==0.21.0
+pytz
+loguru==0.6.0
