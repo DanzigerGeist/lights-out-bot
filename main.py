@@ -54,7 +54,7 @@ def remove_telegram_subscriber(user_id: int):
 
 
 def is_authorized_blackout_notifier(headers):
-    return 'X-API-KEY' in headers and headers['X-API-KEY'] == "1234567890"
+    return 'X-API-KEY' in headers and headers['X-API-KEY'] == os.getenv("BOT_API_KEY")
 
 
 def is_telegram_user_subscribed(user_id: int):

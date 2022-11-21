@@ -26,6 +26,7 @@ Create an '.env' file in the same directory as the 'main.py' file and add the fo
 - BOT_MYSQL_PORT
 - BOT_MYSQL_USER
 - BOT_MYSQL_PASS
+- BOT_API_KEY
 
 ## Database
 The bot uses a MySQL database to store the user info as well as power outage data. The database can be created using the following SQL query:
